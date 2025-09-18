@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .section-1,
+    .section-2 {
+      padding: 10px;
+      display: flex;
+      gap: 5px;
+      flex-wrap: wrap; /* makes it responsive */
+      justify-content: center;
+    }
+
+    h2 {
+      margin: 10px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      text-align: center;
+    }
+
+    .image1 {
+      width: 90%;
+      max-width: 300px; 
+      text-align: center;
+      border: solid black 2px;
+      margin: 10px;
+    }
+
+    .image1 img {
+      width: 95%;
+      margin-top: 10px;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <section class="section-1">
+    <div class="image1">
+      <img src="dog1.jpeg" alt="Little Twins">
+      <h2>Little Twins</h2>
+    </div>
+
+    <div class="image1">
+      <img src="dog4.jpeg" alt="The cute one">
+      <h2>The Cute One</h2>
+    </div>
+
+    <div class="image1">
+      <img src="dog3.jpeg" alt="The innocent">
+      <h2>The Innocent</h2>
+    </div>
+
+    <div class="image1">
+      <img src="dog8.jpeg" alt="The beauty ">
+      <h2>The beauty</h2>
+    </div>
+  </section>
+
+  <section class="section-2">
+    <div class="image1">
+      <img src="dog1.jpeg" alt="Little Twins">
+      <h2>Little Twins</h2>
+    </div>
+
+    <div class="image1">
+      <img src="dog4.jpeg" alt="The cute one">
+      <h2>The Cute One</h2>
+    </div>
+
+    <div class="image1">
+      <img src="dog3.jpeg" alt="The innocent">
+      <h2>The Innocent</h2>
+    </div>
+
+    <div class="image1">
+      <img src="dog8.jpeg" alt="The beauty ">
+      <h2>The beauty</h2>
+    </div>
+  </section>
+</body>
+</html>
